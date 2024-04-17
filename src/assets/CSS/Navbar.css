@@ -1,0 +1,77 @@
+.header-color{
+    color: rgb(224, 149, 9) !important;
+    font-weight: 900 !important;
+}
+.p-right-64px{
+    padding-right: 64px !important;
+}
+nav button{
+    border-radius: 10px;
+    border: 1px solid rgb(224, 149, 9);
+}
+
+nav button:hover{
+    color: black;
+    background: rgb(224, 149, 9);
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.z-index-neg-10 {
+    z-index: -10;
+}
+
+.bg-orange {
+    background-color: #EDA751 !important;
+    color: white !important;
+}
+
+.text-orange{
+    color: #EDA751;
+}
+
+@media (max-width: 768px) {
+    .mobile-order {
+      flex-direction: column;
+    }
+    .position-relative {
+        order: 2; /* Change the order of position-relative div */
+      }
+    
+      .position-absolute {
+        order: 1; /* Change the order of position-absolute div */
+      }
+      #imageRound{
+        width: 82% !important;
+        height: 87% !important;
+      }
+      #images{
+        margin-right: 91px !important;
+        margin-left: 100px !important;
+        margin-top: 15px !important;
+      }
+  }
+
+.section-custom {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  .nav-button{
+    border: 1px solid #EDA751 !important;
+    color: black;
+  }
+  .nav-button:hover{
+    background-color: #EDA751 !important;
+    color: black !important;
+  }
+  
+
+  
+  
+
